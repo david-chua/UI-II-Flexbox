@@ -223,3 +223,30 @@ footer{
 	padding-top: 10px;
 	list-style-type: disc;
 }
+
+@media (max-width: 600px){
+
+	header{
+		align-items: flex-end;
+		flex-direction: column-reverse;
+	}
+
+	header nav{
+		padding: 20px 0px;
+		align-items: flex-end;
+		flex-direction: column-reverse;
+	}
+	.product_info{
+		width: 80%;
+	}
+
+	.fact_container{
+		flex-direction: column-reverse;
+	}
+
+	.some_facts{
+		width: 80%;
+		margin: 0 auto;
+		padding: 20px 0px;
+	}
+}
