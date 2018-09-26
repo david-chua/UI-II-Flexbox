@@ -234,7 +234,7 @@ footer{
 	header nav{
 		padding: 20px 0px;
 		align-items: flex-end;
-		flex-direction: column-reverse;
+		flex-direction: column;
 	}
 
 	.innovation-section{
